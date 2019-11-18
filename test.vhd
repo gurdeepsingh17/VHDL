@@ -1,30 +1,19 @@
 LIBRARY ieee;
 
 USE ieee.std_logic_1164.ALL;
-
-
-
 --	Uncomment the following library declaration if using
 
 --	arithmetic functions with Signed or Unsigned values
 
 --USE ieee.numeric_std.ALL;
 
-
-
 ENTITY Thunder_test_bench IS
 
 END Thunder_test_bench;
 
-
-
 ARCHITECTURE behavior OF Thunder_test_bench IS
 
-
-
 -- Component Declaration for the Unit Under Test (UUT)
-
-
 
     COMPONENT Thunder_bird
 
@@ -70,8 +59,6 @@ signal Left : std_logic := '0';
 
 signal Halt : std_logic := '0';
 
-
-
 --Outputs
 
 signal LA : std_logic;
@@ -88,12 +75,9 @@ signal RC : std_logic;
 
 signal Stop : std_logic;
 
-
-
 -- Clock period definitions
 
 constant clock_period : time := 10 ns;
-
 
 
 BEGIN
@@ -165,17 +149,9 @@ Halt <='0';
 wait for 10 ns;
 
 
-
 Left <='0';
 
 wait for 10 ns;
-
-
-
-Left <='0';
-
-wait for 10 ns;
-
 
 
 Left <='0';
@@ -183,11 +159,14 @@ Left <='0';
 wait for 10 ns;
 
 
-
 Left <='0';
 
 wait for 10 ns;
 
+
+Left <='0';
+
+wait for 10 ns;
 
 
 Left <='0';
