@@ -4,6 +4,6 @@ EMBEDDED SYSTEMS ARCHITECTURE I LAB
 
 2). Lab 2 state diagram
 
-3). Lab 3 Thunderbird view
+3). Lab 3 Thunderbird view(Ford car light)
 
 4). Lab 4 ALU
